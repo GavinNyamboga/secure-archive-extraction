@@ -3,9 +3,17 @@ artifacts = []
 
 [task]
 name = "dev-gavin/secure-archive-extraction"
-description = ""
-authors = []
-keywords = []
+description = "Repair an unsafe tar extraction utility so that it prevents path traversal, unsafe archive members, conflicting paths, and partial extraction."
+authors = [
+    { name = "Gavin Nyamboga", email = "gavinnyamboga3@gmail.com" },
+]
+keywords = [
+    "python",
+    "tar",
+    "archive-extraction",
+    "path-traversal",
+    "security",
+]
 
 [metadata]
 
